@@ -1,0 +1,37 @@
+Database Design:
+
+Create tables for storing customer data, item details, and invoice information.
+Define appropriate fields in each table based on the provided requirements.
+Task 1: Customer Management:
+
+Create a form to register customer data with proper validation.
+Implement functionality to insert, update, delete, and search customer records.
+Develop a view list to display customer records.
+Task 2: Item Management:
+
+Design a form to register item details with necessary validation.
+Incorporate dropdown menus for selecting item categories and subcategories.
+Implement CRUD operations for managing items.
+Create a view list to show item records.
+
+Task 3: Reports:
+
+Invoice Report:
+Create a form to select a date range for searching invoices.
+Fetch and display invoice details within the selected date range.
+Include invoice number, date, customer information, item count, and invoice amount in the report.
+Invoice Item Report:
+Develop a form to search invoice items within a specified date range.
+Fetch and display invoice item details, including invoice number, invoiced date, customer name, item name with code, category, and unit price.
+Item Report:
+Fetch item data from the database and display it in a report format.
+Ensure that the item name is unique in the report.
+Include item category, subcategory, and quantity in the report.
+User Interface:
+
+Design user-friendly interfaces for all forms and reports using HTML, CSS, and Bootstrap for responsiveness.
+Ensure proper validation on the client-side and server-side to maintain data integrity.
+Implement error handling and success messages to provide feedback to users.
+Backend Implementation:
+
+Use PHP for server-side scripting to handle form submissions, database operations, and report generation.
